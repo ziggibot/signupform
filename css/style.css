@@ -16,25 +16,25 @@ body {
 .firstinfo {
     background-color: aliceblue;
     margin: 0;
+    padding: 5em 2em 2em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.text_firstinfo1 {
-    font-size: 1.4em;
-    margin: 5em 1em 1em 1em;
+.text_firstinfo {
+    width: 100%;
+    font-size: 1.8em;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.text_firstinfo2 {
-    font-size: 1.4em;
-    margin: 2em 1em 1em 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .registration_form {
     background-color: rgb(17, 42, 90);
     padding: 2em;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -47,14 +47,16 @@ body {
 
 fieldset {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     border: none;
 }
 
 label {
     color: rgb(253, 240, 240);
+    font-size: 0.8em;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .login_options {
@@ -62,6 +64,7 @@ label {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 2em;
 }
 
 .button_create_account {
