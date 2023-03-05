@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>signupform</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="image_sidebar">
+        <div class="sidebar_logo">
+            <img class="eagle_logo" src="img/eagle.png">
+            <p class="logo_text">Anu</p>
+        </div>
+    </section>
+    <section class="content_section">
+        <article class="firstinfo">
+            <p class="text_firstinfo1">Here's a login form and some other fancy stuff that you absolutely need and
+                nothing else.</p>
+            <p class="text_firstinfo2">Why don't you give it a try?</p>
+        </article>
+        <form class="registration_form">
+            <h2 class="registration_header">Let's make a new account</h2>
+            <fieldset>
+                <label for="givenname">First Name</label>
+                <input type="text" name="givenname" id="givenname">
+                <label for="surname">Last Name</label>
+                <input type="text" name="surname" id="surname">
+            </fieldset>
+            <fieldset>
+                <label for="email_adress">Email</label>
+                <input type="email" name="email_adress" id="email_adress">
+                <label for="phone_number">Phone</label>
+                <input type="text" name="phone_number" id="phone_number">
+            </fieldset>
+            <fieldset>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <label for="password_confirm">Confirm Password</label>
+                <input type="password_confirm" name="password_confirm" id="password_confirm">
+            </fieldset>
+        </form>
+        <div class="login_options">
+            <button class="button_create_account">
+                Create Account
+            </button>
+            <p class="text_login_options">
+                Already have an account? <a class="link_login" href="#">Log in</a>
+            </p>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

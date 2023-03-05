@@ -1,0 +1,116 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.content_section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(92, 112, 124);
+    padding: 0;
+}
+
+.firstinfo {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.text_firstinfo1 {
+    font-size: 1.4em;
+    margin: 5em 1em 1em 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_firstinfo2 {
+    font-size: 1.4em;
+    margin: 2em 1em 1em 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registration_form {
+    background-color: rgb(17, 42, 90);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registration_header {
+    width: 100%;
+    text-align: center;
+    color: rgb(253, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: none;
+}
+
+label {
+    color: rgb(253, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login_options {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button_create_account {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 1em;
+    padding: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(17, 42, 90);
+    color: rgb(253, 240, 240);
+}
+
+.link_login {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(17, 42, 90);
+}
+
+.text_login_options {
+    font-size: 1.2em;
+    margin: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image_sidebar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/background_sidebar.jpg");
+    background-size: cover;
+}
+
+.sidebar_logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(85, 70, 99, 0.4);
+}
+
+.eagle_logo {
+    width: 4em;
+    height: 4em;
+    margin: 1em;
+}
+
+.logo_text {
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(253, 240, 240);
+    font-family: 'Cinzel Decorative', cursive;
+}
