@@ -21,31 +21,32 @@
     <section class="content_section">
         <article class="firstinfo">
             <p class="text_firstinfo">Here's a login form and some other fancy stuff that you absolutely need and
-                nothing else.<br>Why don't you give it a try?</p>
+                nothing else.
+            <p class="text_firstinfo">Why don't You give it a try?</p>
         </article>
-        <form class="registration_form">
+        <form class="registration_form" id="registration_form">
             <h2 class="registration_header">Let's make a new account</h2>
             <fieldset>
                 <label for="gname">First Name</label>
-                <input type="text" tabindex="1" name="givenname" id="gname">
+                <input type="text" tabindex="1" name="givenname" id="gname" required>
                 <label for="sname">Last Name</label>
-                <input type="text" tabindex="2" name="surname" id="sname">
+                <input type="text" tabindex="2" name="surname" id="sname" required>
             </fieldset>
             <fieldset>
                 <label for="email_ad">Email</label>
-                <input type="email" tabindex="3" name="email_adress" id="email_ad">
+                <input type="email" tabindex="3" name="email_adress" id="email_ad" required>
                 <label for="phone_n">Phone</label>
-                <input type="text" tabindex="4" name="phone_number" id="phone_n">
+                <input type="tel" inputmode="numeric" tabindex="4" name="phone_number" id="phone_n" required>
             </fieldset>
             <fieldset>
                 <label for="passw">Password</label>
-                <input type="password" tabindex="5" name="password" id="passw">
+                <input type="password" tabindex="5" name="password" id="passw" class="password" required>
                 <label for="passw_conf">Confirm Password</label>
-                <input type="password_confirm" tabindex="6" name="password_confirm" id="passw_conf">
+                <input type="password" tabindex="6" name="password_confirm" id="passw_conf" class="password" required>
             </fieldset>
         </form>
         <div class="login_options">
-            <button class="button_create_account" tabindex="7">
+            <button type="submit" form="registration_form" class="button_create_account" id="submitbtn" tabindex="7">
                 Create Account
             </button>
             <p class="text_login_options">
